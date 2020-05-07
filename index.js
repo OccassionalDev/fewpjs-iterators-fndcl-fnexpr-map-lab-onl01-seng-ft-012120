@@ -15,6 +15,6 @@ const titleCased = (input) => {
   return tutorials.map(title => {
     let titleArray = title.split(' ');
     
-    let capTitles = titleArray.map(nonCapTitle => nonCapTitle.char)
+    let capTitles = titleArray.map(nonCapTitle => nonCapTitle.charAt(0))
   });
 };
