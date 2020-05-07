@@ -13,6 +13,6 @@ const tutorials = [
 
 const titleCased = (input) => {
   return tutorials.map(title => {
-    
+    let 
   });
 };
