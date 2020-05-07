@@ -15,6 +15,6 @@ const titleCased = (input) => {
   return tutorials.map(title => {
     let titleArray = title.split(' ');
     
-    
+    let capArray = 
   });
 };
