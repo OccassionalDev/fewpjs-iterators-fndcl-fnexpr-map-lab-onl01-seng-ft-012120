@@ -16,8 +16,6 @@ const titleCased = (input) => {
     let titleArray = title.split(' ');
     
     let capTitles = titleArray.map(
-      nonCapTitle => nonCapTitle.charAt(0).toUpperCase() + nonCapTitle
-      
-      );
+      nonCapTitle => nonCapTitle.charAt(0).toUpperCase() + nonCapTitle.slice(1));
   });
 };
